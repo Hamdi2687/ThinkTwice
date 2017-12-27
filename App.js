@@ -1,11 +1,10 @@
 import React from 'react';
+import Game from './components/tictqctocgame/Game.js'
 
 class App extends React.Component {
    render() {
       return (
-         <div>
-            Hey React Do!
-         </div>
+         <Game />
       );
    }
 }
