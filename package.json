@@ -1,0 +1,33 @@
+{
+  "name": "thinktwice",
+  "version": "1.0.0",
+  "description": "https://medium.com/@robhitt/react-from-scratch-575d1e570b85",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamdi2687/ThinkTwice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hamdi2687/ThinkTwice/issues"
+  },
+  "homepage": "https://github.com/Hamdi2687/ThinkTwice#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
